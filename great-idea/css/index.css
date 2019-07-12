@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.4;
 }
 ol, ul {
 	list-style: none;
@@ -128,4 +128,56 @@ header nav a {
 footer p{
 	text-align: center;
 	padding:50px;
+}
+.services-header-img {
+	margin: 20px 0 40px 0;
+}
+.services h1{
+	font-size: 20px;
+
+}
+.services{
+	border-bottom:1px solid black;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	
+}
+.services-parent{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+}
+.services-box {
+	border: 1px solid black;
+	width: 48%;
+	padding: 20px;
+	margin-bottom:40px;
+	background-color:gray ;
+}
+.services-box p{
+	margin-bottom: 15px;
+}
+
+.services-box button{
+	border:1px solid black;
+	text-decoration: none;
+	border-radius: 4px;
+
+}
+.services-bottom-content {
+	display:flex;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+.services-bottom-content-child{
+	width: 45%;
+
+}
+.services-bottom-content-child p{
+	margin-bottom: 15px;
+}
+.services-bottom-content-child ul{
+	list-style: disc;
+	list-style-position: inside;
 }
